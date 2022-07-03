@@ -5,3 +5,7 @@ terraform {
     region = "ap-northeast-2"
   }
 }
+
+module "servers" {
+  source = "./resource"
+}
